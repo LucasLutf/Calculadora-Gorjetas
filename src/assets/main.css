@@ -1,0 +1,50 @@
+@import "./base.css";
+
+.calc{
+  border: 2px solid #0f0f0f;
+  padding: 30px;
+  max-width: 830px;
+  display: block;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+.valores-forms {
+  display: grid;
+  margin-top: 17px;
+}
+input, select{
+  height: 35px;
+  padding-left: 10px;
+}
+
+span{
+  margin-left: 5px;
+}
+label{
+  font-size: 1.8em;
+}
+.resultado {
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+.resultado span {
+  font-size: 1.5em;
+  color: rgb(10, 221, 21);
+}
+strong {
+  color: #0f0f0f;
+}
